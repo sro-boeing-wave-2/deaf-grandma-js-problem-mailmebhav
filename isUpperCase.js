@@ -1,12 +1,18 @@
 /**
- * @fileOverview Checks if the string is in uppercase
- */
+* @fileOverview Checks if the string is in uppercase
+*/
 
 /**
- * Checks if the string is in uppercase
- * @param {string} s The string to be checked
- * @returns {boolean}
- */
-const isUppercase = (s) => {};
+* Checks if the string is in uppercase
+* @param {string} s The string to be checked
+* @returns {boolean}
+*/
+const isUppercase = (s) => {
+  const upper = s.toUpperCase();
+  if (s === upper) {
+    return true;
+  }
+  return false;
+};
 
 module.exports = isUppercase;
