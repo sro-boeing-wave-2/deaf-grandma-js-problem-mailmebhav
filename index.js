@@ -24,7 +24,7 @@ while (flag === true) {
       byecount += 1;
     }
     if (byecount < 3) {
-      let messtr = `NO, NOT SINCE ${getRandomValue(1930, 1950)}`;
+      const messtr = `NO, NOT SINCE ${getRandomValue(1930, 1950)}`;
       print(messtr);
     } else {
       flag = false;
